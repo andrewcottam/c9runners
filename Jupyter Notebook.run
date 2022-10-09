@@ -1,0 +1,8 @@
+// This file overrides the built-in Jupyter Notebook with Python 3 and Earth Engine runner
+// For more information see http://docs.aws.amazon.com/console/cloud9/change-runner
+{
+  "script": [
+    "jupyter notebook --ip=0.0.0.0 --port 8080 --no-browser --NotebookApp.notebook_dir=/home/ubuntu/environment/jupyter/notebooks"
+  ],
+  "info": "Starting Jupyter Notebook. Open \\033[01;34mhttps://61c92e42cb1042699911c485c38d52ae.vfs.cloud9.eu-west-1.amazonaws.com:8080\\033[00m"
+}

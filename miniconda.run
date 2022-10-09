@@ -1,0 +1,29 @@
+{
+  "script": [
+    "if [ \"$debug\" == true ]; then ",
+    "    python -m ikp3db -ik_p=15471 -ik_cwd=$project_path \"$file\" $args",
+    "else",
+    "   python \"$file\" $args",
+    "fi",
+    "checkExitCode() {",
+    "    if [ $1 ] && [ \"$debug\" == true ]; then ",
+    "        python -m ikpdb 2>&1 | grep -q 'No module' && echo '",
+    "    To use python debugger install ikpdb by running: ",
+    "        sudo apt-get update;",
+    "        sudo apt-get install python-dev;",
+    "        sudo pip install ikpdb;",
+    "        '",
+    "    fi",
+    "   return $1",
+    "}",
+    "checkExitCode $?"
+  ],
+  "python_version": "python3",
+  "working_dir": "$project_path",
+  "debugport": 15471,
+  "$debugDefaultState": false,
+  "debugger": "ikpdb",
+  "selector": "^.*\\.(py)$",
+  "info": "Running miniconda using python..",
+  "trackId": "Python3"
+}

@@ -1,0 +1,4 @@
+{
+    "script" : ["python /home/ubuntu/environment/python-rest-server/services.py 8081"],
+    "info" : "Starting python-rest-server at \\033[01;34mhttps://61c92e42cb1042699911c485c38d52ae.vfs.cloud9.eu-west-1.amazonaws.com:8081/python-rest-server/\\033[00m" 
+}

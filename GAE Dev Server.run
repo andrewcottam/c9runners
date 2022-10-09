@@ -1,0 +1,4 @@
+{
+    "script" : ["cd /home/ubuntu/environment/","dev_appserver.py --host $IP --port 8081 --admin_host $IP --admin_port 8082 python/geeImageServer --enable_host_checking=false"],
+    "info" : "dev_appserver now running geeImageServer at \\033[01;34mhttps://61c92e42cb1042699911c485c38d52ae.vfs.cloud9.eu-west-1.amazonaws.com:8081/testAuthenticate\\033[00m"
+}

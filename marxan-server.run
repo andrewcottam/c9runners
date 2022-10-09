@@ -1,0 +1,7 @@
+//this script is used only on the ec2-default machine where the ubuntu user runs marxan-server
+//the python36 environment is activated and this loads the environment variables for the ubuntu user, e.g. GDAL_DATA before starting marxan-server
+//on production machines the root user runs the startup.sh script to start marxan-server
+{
+    "script" : ["python /home/ubuntu/environment/marxanweb/marxan-server/marxan-server.py"],
+    "info" : "Starting marxan-server at \\033[01;34mhttps://61c92e42cb1042699911c485c38d52ae.vfs.cloud9.eu-west-1.amazonaws.com:8081/marxan-server/testTornado\\033[00m" 
+}

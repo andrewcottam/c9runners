@@ -1,0 +1,4 @@
+{
+    "script" : ["cd /home/ubuntu/environment/python/geeImageServer","gcloud app deploy app.yaml"],
+    "info" : "Deploying app.."
+}

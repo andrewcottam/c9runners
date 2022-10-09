@@ -1,0 +1,4 @@
+{
+    "script" : ["sudo service postgresql start"],
+    "info" : "Starting Postgresql"
+}

@@ -1,0 +1,4 @@
+{
+    "script" : ["cd /usr/share/geoserver/geoserver-2.15.1/bin","sudo sh startup.sh"],
+    "info" : "Starting Geoserver 2.15.0 at \\033[01;34mhttp://61c92e42cb1042699911c485c38d52ae.vfs.cloud9.eu-west-1.amazonaws.com/geoserver\\033[00m\nPress CTRL+C to stop"
+}
